@@ -1,6 +1,6 @@
 # Almost Amazon
 
-This will display a field once a button is clicked, that will allow a student to put in his or her name. Then that info upon "sort" will be displayed in a card on screen, applying them to a house randomly. 
+This is a single book store in the form of Amazon, but it's Almost Amazon. You will be able to add this book to your cart. You can't purchase it yet, because this is a fictional situation. 
 
 ## Screenshots
 ![main screenshot](./images/screenshot.png)
