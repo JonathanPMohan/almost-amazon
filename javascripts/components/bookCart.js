@@ -1,10 +1,13 @@
-import {book} from "../components/bookStore.js";
+// Import Functions From Linked javascript Files //
 
-const BookDetails = () => {
-    // let newprice= `<h3>${book.title}</h3>`;
-    let newprice =`<br><img src="${book.image}" width="50px" height="50px">`;
-        newprice += `<br><h6>Price: ${book.price}</h6>`;
+import {book, price} from "../components/bookStore.js";
+
+// Return Cart Function //
+const bookDetails = () => {
+    let newprice =`<img src="${book.image}" width="75px" height="125px">`;
+        newprice += `<br><h7>Price: ${price()}</h7>`;
     return newprice;
  }
  
- export {BookDetails};
+ // Export Function To Linked javascript Files //
+ export {bookDetails};
