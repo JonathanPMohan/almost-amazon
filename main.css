@@ -1,15 +1,30 @@
 body {
-    background-color: lightgreen;
+    background-color: lightskyblue;
     color: white;
     padding: 2%;
     margin: 1%;
+    background-image: url("./images/background.png");
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-.bookContainer 
+.book_container {
+    padding: 1%;
+    margin : 1%;
+}
+
+.price_container {
+    padding-top: 1%;
+    
+}
 
 .main_heading {
     text-align: center;
     font-size: 2em;
+}
+
+#cartButton {
+   
+    margin-left: 3.5%;
 }
 
 #cart_container {
